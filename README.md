@@ -51,5 +51,6 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Mini Proje 2 - Kalin Sesli ve Ince Sesli Harfler | [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders13/src/Main.java) |
 | Mini Proje 3 - Mukemmel Sayilar | [Part - 3](https://github.com/rrob1n/Java101BTK/blob/main/Ders14/src/Main.java) | 
 | Mini Proje 4 - Arkadas Sayilar | [Part - 4](https://github.com/rrob1n/Java101BTK/blob/main/Ders15/src/Main.java) |
+| Mini Proje 5 - Sayi Bulma | [Part - 5](https://github.com/rrob1n/Java101BTK/blob/main/Ders16/src/Main.java) |
 
 
