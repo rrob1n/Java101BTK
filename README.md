@@ -48,5 +48,6 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Proje Ismi               | Dosya Linki                                                                     |
 | ------------------------ | ------------------------------------------------------------------------------- |
 | Mini Proje 1 - Asal Sayi Mi? | [Part - 1](https://github.com/rrob1n/Java101BTK/blob/main/Ders12/src/Main.java) |
+| Mini Proje 2 - Kalin Sesli ve Ince Sesli Harfler | [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders13/src/Main.java) |
 
 
