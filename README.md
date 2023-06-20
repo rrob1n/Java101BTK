@@ -43,4 +43,10 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Stringlerle Calismak - 1 | [Part - 1](https://github.com/rrob1n/Java101BTK/blob/main/Ders11/src/Main.java) |
 | Stringlerle Calismak - 2 | [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders11/src/Main.java) |
 
+### Mini Projeler
+
+| Proje Ismi               | Dosya Linki                                                                     |
+| ------------------------ | ------------------------------------------------------------------------------- |
+| Mini Proje 1 - Asal Sayi Mi? | [Part - 1](https://github.com/rrob1n/Java101BTK/blob/main/Ders12/src/Main.java) |
+
 
