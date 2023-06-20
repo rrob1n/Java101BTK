@@ -12,9 +12,10 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Degiskenler ve Degisken Kullanim Ihtiyaci | [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders2/src/Main.java) |
 | Temel Veri Tipleri Ile Calismak | [Part - 3](https://github.com/rrob1n/Java101BTK/blob/main/Ders3/src/Main.java) |
 
-### Şart Bloklari Ile Calismak
+### Sart Bloklari Ile Calismak
 
 | Proje Ismi | Dosya Linki |
 | ---------- | ----------- |
 | If Bloklari Ile Calismak | [Part - 1](https://github.com/rrob1n/Java101BTK/blob/main/Ders4/src/Main.java) |
 | Recap Demo 1 - En Buyuk Sayi Hangisi | [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders5/src/Main.java) | 
+| Switch Bloklariyla Calismak | [Part - 3](https://github.com/rrob1n/Java101BTK/blob/main/Ders6/src/Main.java)|
