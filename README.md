@@ -25,5 +25,6 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Proje Ismi | Dosya Linki |
 | ---------- | ----------- |
 | For Dongusuyle Calismak | [Part - 1](https://github.com/rrob1n/Java101BTK/blob/main/Ders7/src/Main.java) |
-
+| While Dongusuyle Calismak | [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders7/src/Main.java)|
+| Do-While Dongusuyle Calismak | [Part - 3](https://github.com/rrob1n/Java101BTK/blob/main/Ders7/src/Main.java) |
 
