@@ -45,12 +45,20 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 
 ### Mini Projeler
 
-| Proje Ismi               | Dosya Linki                                                                     |
-| ------------------------ | ------------------------------------------------------------------------------- |
-| Mini Proje 1 - Asal Sayi Mi? | [Part - 1](https://github.com/rrob1n/Java101BTK/blob/main/Ders12/src/Main.java) |
+| Proje Ismi                                       | Dosya Linki                                                                     |
+| ------------------------------------------------ | ------------------------------------------------------------------------------- |
+| Mini Proje 1 - Asal Sayi Mi?                     | [Part - 1](https://github.com/rrob1n/Java101BTK/blob/main/Ders12/src/Main.java) |
 | Mini Proje 2 - Kalin Sesli ve Ince Sesli Harfler | [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders13/src/Main.java) |
-| Mini Proje 3 - Mukemmel Sayilar | [Part - 3](https://github.com/rrob1n/Java101BTK/blob/main/Ders14/src/Main.java) | 
-| Mini Proje 4 - Arkadas Sayilar | [Part - 4](https://github.com/rrob1n/Java101BTK/blob/main/Ders15/src/Main.java) |
-| Mini Proje 5 - Sayi Bulma | [Part - 5](https://github.com/rrob1n/Java101BTK/blob/main/Ders16/src/Main.java) |
+| Mini Proje 3 - Mukemmel Sayilar                  | [Part - 3](https://github.com/rrob1n/Java101BTK/blob/main/Ders14/src/Main.java) |
+| Mini Proje 4 - Arkadas Sayilar                   | [Part - 4](https://github.com/rrob1n/Java101BTK/blob/main/Ders15/src/Main.java) |
+| Mini Proje 5 - Sayi Bulma                        | [Part - 5](https://github.com/rrob1n/Java101BTK/blob/main/Ders16/src/Main.java) |
+
+### Metodlarla Calismak
+
+| Proje Ismi                      | Dosya Linki                                                                     |
+| ------------------------------- | ------------------------------------------------------------------------------- |
+| Metodlari Anlamak               | [Part - 1](https://github.com/rrob1n/Java101BTK/blob/main/Ders17/src/Main.java) |
+| Parametreli Metodlari Anlamak   | [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders18/src/Main.java) |
+| Variable Arguments ile Calismak | [Part - 3](https://github.com/rrob1n/Java101BTK/blob/main/Ders18/src/Main.java) |
 
 
