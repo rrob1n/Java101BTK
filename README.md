@@ -34,4 +34,5 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | ---------- | ----------- |
 | Dizilerle Calismaya Baslamak | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders8/src) |
 | Recap Demo 2 - Dizilerle Calismak | [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders9/src/Main.java) |
+| Cok Boyutlu Dizilerle Calismak | [Part - 3](https://github.com/rrob1n/Java101BTK/blob/main/Ders10/src/Main.java) |
 
