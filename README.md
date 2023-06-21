@@ -85,6 +85,13 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Constructor ile Calismak | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders21/src) |
 | Method Overloading ile Calismak | [Part - 2](https://github.com/rrob1n/Java101BTK/tree/main/Ders22/src) |
 
+### Inheritance
+
+| Proje Ismi | Dosya Linki |
+| ---------- | ----------- |
+| Inheritance Yapisini Anlamak | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders23/src)|
+| Inheritance Demo | [Part - 2](https://github.com/rrob1n/Java101BTK/tree/main/Ders24/src) |
+
 
 
 
