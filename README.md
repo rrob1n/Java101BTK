@@ -70,5 +70,15 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Deger ve Referans Tipleri Anlamak | [Part - 3](https://github.com/rrob1n/Java101BTK/tree/main/Ders19/src) |
 | Recap Demo - Classlarla Calismak | [Part - 4](https://github.com/rrob1n/Java101BTK/tree/main/Ders20/src) |
 
+### Encapsulation 
+
+| Proje Ismi | Dosya Linki |
+| ---------- | ----------- |
+| Field ve Attribute ile Calismak | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders21/src) |
+| Encaptulation Ihtiyacini Anlamak | [Part - 2](https://github.com/rrob1n/Java101BTK/tree/main/Ders21/src) |
+| Getter ve Setter Ile Calismak | [Part - 3](https://github.com/rrob1n/Java101BTK/tree/main/Ders21/src) |
+
+
+
 
 
