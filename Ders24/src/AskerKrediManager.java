@@ -1,2 +1,2 @@
-public class AskerKrediManager {
+public class AskerKrediManager extends BaseKrediManager {
 }
