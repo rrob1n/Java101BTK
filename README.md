@@ -61,4 +61,13 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Parametreli Metodlari Anlamak   | [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders18/src/Main.java) |
 | Variable Arguments ile Calismak | [Part - 3](https://github.com/rrob1n/Java101BTK/blob/main/Ders18/src/Main.java) |
 
+### Classlar Ile Calismak
+
+| Proje Ismi | Dosya Linki |
+| ---------- | ----------- |
+| Class Nedir? Dogru Anlamak | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders19/src) |
+| Bir Class Nasil Calisir? | [Part - 2](https://github.com/rrob1n/Java101BTK/tree/main/Ders19/src) |
+| Deger ve Referans Tipleri Anlamak | [Part - 3](https://github.com/rrob1n/Java101BTK/tree/main/Ders19/src) |
+
+
 
