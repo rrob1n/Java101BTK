@@ -1,4 +1,22 @@
 public class Product {
+
+    // constructorlar
+
+    public Product(int id, String name, String description, double price, int stockAmount, String renk) {
+        System.out.println("Yapici blok calisti!");
+        this.id = id;
+        this.renk = renk;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.stockAmount = stockAmount;
+    }
+
+    public Product() {
+
+    }
+
+
     // attributes veya field denir bunlara
     private int id;
     private String name;
@@ -61,7 +79,7 @@ public class Product {
     }
 
     public String getKod() {
-        return name.substring(0,1) + id;
+        return name.substring(0, 1) + id;
     }
 
 
