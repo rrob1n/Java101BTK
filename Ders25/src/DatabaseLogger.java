@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class DatabaseLogger {
+public class DatabaseLogger extends BaseLogger {
+    @Override
+    public void Log(String message) {
+        System.out.println("Logged to Database! : " + message);
+    }
 }
