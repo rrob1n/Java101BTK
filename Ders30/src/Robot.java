@@ -1,2 +1,6 @@
-public class Robot {
+public class Robot implements IWorker{
+    @Override
+    public void work() {
+
+    }
 }
