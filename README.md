@@ -99,3 +99,11 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Gercek Hayatta Polymorphism ile Calismak | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders25/src) | 
 | Overriding Altyapisiyla Calismak | [Part - 2](https://github.com/rrob1n/Java101BTK/tree/main/Ders26/src) |
 
+### Abstract Class ile Calismak
+
+| Proje Ismi | Dosya Linki |
+| ---------- | ----------- |
+| Abstract Siniflar ile Calismak | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders27/src) |
+| Demo - Abstract Siniflari Pekistirmek | [Part - 2](https://github.com/rrob1n/Java101BTK/tree/main/Ders28/src) |
+
+
