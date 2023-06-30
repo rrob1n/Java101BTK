@@ -126,3 +126,12 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | ---------- | ----------- |
 | Package Kavrami ve Built-in Paketlerle Calismak | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders32/src) |
 | Kendi Paketlerimizi Olusturmak | [Part - 2](https://github.com/rrob1n/Java101BTK/tree/main/Ders32/src) |
+
+### Koleksiyonlarla Calismak
+
+| Proje Ismi | Dosya Linki |
+| ---------- | ----------- |
+| ArrayList ile Calismaya Baslamak | [Part - 1](https://github.com/rrob1n/Java101BTK/blob/main/Ders33/src/Main.java) |
+| Type-Safe ArrayList ile Calismak| [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders34/src/Main.java) |
+| Demo - Classlar ile Arraylist | [Part - 3](https://github.com/rrob1n/Java101BTK/tree/main/Ders35/src) |
+| HashMap ile Calismak | [Part - 4](https://github.com/rrob1n/Java101BTK/blob/main/Ders36/src/Main.java) |
