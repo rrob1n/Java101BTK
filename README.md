@@ -156,3 +156,11 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Dosya Bilgilerinin Okunmasi | [Part - 2](https://github.com/rrob1n/Java101BTK/tree/main/Ders40/src) |
 | Dosyalarin Okunmasi | [Part - 3](https://github.com/rrob1n/Java101BTK/tree/main/Ders40/src) |
 | Dosyaya Yazmak | [Part - 4](https://github.com/rrob1n/Java101BTK/tree/main/Ders40/src) |
+
+### Generics
+
+| Proje Ismi | Dosya Linki |
+| ---------- | ----------- |
+| Generic Siniflari Anlamak | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders41/src) |
+| Demo - Repository Deseni Uzerinde Generic Siniflar ve Kisitlar | [Part - 2](https://github.com/rrob1n/Java101BTK/tree/main/Ders42/src) | 
+| Generic Metodlari Anlamak | [Part - 3](https://github.com/rrob1n/Java101BTK/tree/main/Ders42/src) |
