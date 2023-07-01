@@ -135,3 +135,15 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Type-Safe ArrayList ile Calismak| [Part - 2](https://github.com/rrob1n/Java101BTK/blob/main/Ders34/src/Main.java) |
 | Demo - Classlar ile Arraylist | [Part - 3](https://github.com/rrob1n/Java101BTK/tree/main/Ders35/src) |
 | HashMap ile Calismak | [Part - 4](https://github.com/rrob1n/Java101BTK/blob/main/Ders36/src/Main.java) |
+
+### Hata Yonetimi
+
+| Proje Ismi | Dosya Linki |
+| ---------- | ----------- |
+| Try-Catch-Finally Mantigini Anlamak | [Part - 1](https://github.com/rrob1n/Java101BTK/blob/main/Ders37/src/Main.java) |
+| Exception Hiyerarsisi | [Part - 2](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.stack.imgur.com%2FPPjwP.png&f=1&nofb=1&ipt=3bcb9d4b6dc8187c099b7893428870a33e8b3fb03cc686aac4cb0bd2c56ad52c&ipo=images) |
+| Demo - Exception Hiyerarsisi | [Part - 3](https://github.com/rrob1n/Java101BTK/blob/main/Ders37/src/Main.java) |
+| Checked Exceptionlar ile Calismak 1 | [Part - 4](https://github.com/rrob1n/Java101BTK/blob/main/Ders38/src/Main.java) |
+| Checked Exceptionlar ile Calismak 2 | [Part - 5](https://github.com/rrob1n/Java101BTK/blob/main/Ders38/src/Main.java) |
+| Throw Ifadesi ile Calismak | [Part - 6](https://github.com/rrob1n/Java101BTK/tree/main/Ders39/src) |
+| Custom Expression Yazmak | [Part - 7](https://github.com/rrob1n/Java101BTK/tree/main/Ders39/src) |
