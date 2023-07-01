@@ -1,11 +1,10 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         getFileInfo();
+        writeFile();
         readFile();
     }
 
@@ -41,6 +40,19 @@ public class Main {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public static void writeFile() {
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter("/home/kurisu/Documents/repos/Java101BTK/files/students.txt",true));
+            writer.newLine();
+            writer.write("Ahmet");
+            System.out.println("Dosyaya yazildi!");
+            writer.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 
 }
