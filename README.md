@@ -147,3 +147,12 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | Checked Exceptionlar ile Calismak 2 | [Part - 5](https://github.com/rrob1n/Java101BTK/blob/main/Ders38/src/Main.java) |
 | Throw Ifadesi ile Calismak | [Part - 6](https://github.com/rrob1n/Java101BTK/tree/main/Ders39/src) |
 | Custom Expression Yazmak | [Part - 7](https://github.com/rrob1n/Java101BTK/tree/main/Ders39/src) |
+
+### Dosyalarla Calismak
+
+| Proje Ismi | Dosya Linki |
+| ---------- | ----------- |
+| Dosyalarla Calismaya Baslamak | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders40/src) |
+| Dosya Bilgilerinin Okunmasi | [Part - 2](https://github.com/rrob1n/Java101BTK/tree/main/Ders40/src) |
+| Dosyalarin Okunmasi | [Part - 3](https://github.com/rrob1n/Java101BTK/tree/main/Ders40/src) |
+| Dosyaya Yazmak | [Part - 4](https://github.com/rrob1n/Java101BTK/tree/main/Ders40/src) |
