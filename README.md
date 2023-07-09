@@ -171,3 +171,9 @@ Asagida dersleri sirasina gore yerlestirdim linklere tiklayarak source koduna ul
 | ---------- | ----------- |
 | Threading Nedir? | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders43/src) | 
 | Demo - Kronometre ile Threading Yapisini Anlamak | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders43/src) |
+
+### JDBC ile Veritabani Programlama
+
+| Proje Ismi | Dosya Linki |
+| ---------- | ----------- |
+| JDBC ile Veritabani Programlama Tüm Dosya | [Part - 1](https://github.com/rrob1n/Java101BTK/tree/main/Ders44/src) |
