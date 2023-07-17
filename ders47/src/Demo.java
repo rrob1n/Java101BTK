@@ -13,7 +13,13 @@ public class Demo extends javax.swing.JFrame {
 
     public Demo() {
         initComponents();
+        populateTable();
+        
+    }
+
+    public void populateTable() {
         model = (DefaultTableModel) tblCities.getModel();
+        model.setRowCount(0);
         try {
             ArrayList<City> cities = getCities();
             for (City city : cities) {
@@ -67,6 +73,15 @@ public class Demo extends javax.swing.JFrame {
         tblCities = new javax.swing.JTable();
         txtSearch = new javax.swing.JTextField();
         lblSearch = new javax.swing.JLabel();
+        lblCityName = new javax.swing.JLabel();
+        lblCountryName = new javax.swing.JLabel();
+        lblDistrict = new javax.swing.JLabel();
+        txtCityName = new javax.swing.JTextField();
+        txtCountryCode = new javax.swing.JTextField();
+        txtDistrict = new javax.swing.JTextField();
+        txtPopulation = new javax.swing.JTextField();
+        lblPopulation = new javax.swing.JLabel();
+        btnAddCity = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -114,30 +129,93 @@ public class Demo extends javax.swing.JFrame {
 
         lblSearch.setText("Search : ");
 
+        lblCityName.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        lblCityName.setText("Name :");
+
+        lblCountryName.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        lblCountryName.setText("Country Code : ");
+
+        lblDistrict.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        lblDistrict.setText("District : ");
+
+        txtCityName.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+
+        txtCountryCode.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+
+        txtDistrict.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+
+        txtPopulation.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+
+        lblPopulation.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        lblPopulation.setText("Population : ");
+
+        btnAddCity.setFont(new java.awt.Font("Liberation Sans", 0, 18)); // NOI18N
+        btnAddCity.setText("Add City");
+        btnAddCity.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddCityActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(30, 30, 30)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(lblSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(txtSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 585, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 733, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(txtSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 585, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 733, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(43, Short.MAX_VALUE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(lblCountryName, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(lblCityName, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(txtCityName)
+                            .addComponent(txtCountryCode, javax.swing.GroupLayout.DEFAULT_SIZE, 151, Short.MAX_VALUE))
+                        .addGap(167, 167, 167)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblDistrict, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblPopulation, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(txtDistrict, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE)
+                            .addComponent(txtPopulation))))
+                .addGap(43, 43, 43))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(289, 289, 289)
+                .addComponent(btnAddCity, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(98, Short.MAX_VALUE)
+                .addGap(17, 17, 17)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblSearch))
-                .addGap(36, 36, 36)
+                    .addComponent(lblSearch)
+                    .addComponent(txtSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(39, 39, 39))
+                .addGap(23, 23, 23)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblCityName)
+                    .addComponent(lblDistrict)
+                    .addComponent(txtCityName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtDistrict, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(24, 24, 24)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblCountryName)
+                    .addComponent(txtCountryCode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtPopulation, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblPopulation))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
+                .addComponent(btnAddCity)
+                .addGap(27, 27, 27))
         );
 
         pack();
@@ -149,6 +227,31 @@ public class Demo extends javax.swing.JFrame {
         tblCities.setRowSorter(tableRowSorter);
         tableRowSorter.setRowFilter(RowFilter.regexFilter(searchKey));
     }//GEN-LAST:event_txtSearchKeyReleased
+
+    private void btnAddCityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddCityActionPerformed
+        Connection connection = null;
+        DbHelper dbHelper = new DbHelper();
+        PreparedStatement preparedStatement = null;
+        try {
+            connection = dbHelper.getConnection();
+            String sql = "insert into city(Name,CountryCode,District,Population) values(?,?,?,?)";
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, txtCityName.getText());
+            preparedStatement.setString(2, txtCountryCode.getText());
+            preparedStatement.setString(3, txtDistrict.getText());
+            preparedStatement.setInt(4, Integer.valueOf(txtPopulation.getText()));
+            int result = preparedStatement.executeUpdate();
+            populateTable();
+        } catch (SQLException exception) {
+            dbHelper.showErrorMessage(exception);
+        } finally {
+            try {
+                preparedStatement.close();
+                connection.close();
+            } catch (SQLException ex) {
+            }
+        }
+    }//GEN-LAST:event_btnAddCityActionPerformed
 
     /**
      * @param args the command line arguments
@@ -186,9 +289,18 @@ public class Demo extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnAddCity;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel lblCityName;
+    private javax.swing.JLabel lblCountryName;
+    private javax.swing.JLabel lblDistrict;
+    private javax.swing.JLabel lblPopulation;
     private javax.swing.JLabel lblSearch;
     private javax.swing.JTable tblCities;
+    private javax.swing.JTextField txtCityName;
+    private javax.swing.JTextField txtCountryCode;
+    private javax.swing.JTextField txtDistrict;
+    private javax.swing.JTextField txtPopulation;
     private javax.swing.JTextField txtSearch;
     // End of variables declaration//GEN-END:variables
 }
